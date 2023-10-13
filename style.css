@@ -1,0 +1,61 @@
+body, div, html h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+body {
+    min-height: 100vh;
+    padding: 10px; 
+    background-color: rgb(194, 192, 192);
+}
+
+body.dark-mode {
+    background-color: black;
+}
+
+h1 {
+    margin: 15px auto;
+    border: 2px solid #034;
+    font-size: 40px;
+    color: black
+}
+
+div {
+    display: flexbox;
+    columns: auto;
+}
+
+hr {
+    color: black;
+}
+
+.product-card {
+    margin: 15px auto;
+    padding: 20px auto;
+    border: 2px solid rgb(102, 98, 98);
+    background-color: rgb(254, 253, 253);
+    display: flex-wrap; 
+    justify-content: space-between; 
+}
+
+.product-info {
+    flex: 1; 
+}
+
+.stock-status {
+    margin-top: auto; 
+}
+   
+  #clickMe {
+    background-color: #eff;
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+  
